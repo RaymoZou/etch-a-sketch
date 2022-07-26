@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    height: 100vh;
+}
+
+/* individual sqaures */
+.container div {
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+    /* background-color: coral; */
+    border: solid;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;   
+}
+
+.hover {
+    background-color: red;  
+}
