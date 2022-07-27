@@ -1,27 +1,40 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: lightcyan;
     height: 100vh;
+    font-family: sans-serif;
 }
 
-/* individual sqaures */
+button {
+    margin-bottom: 30px;
+    padding: 1rem;
+}
+
 .container div {
     margin: 0px;
-    height: 100px;
-    width: 100px;
-    /* background-color: coral; */
+    /* height: 97px;
+    width: 97px; */
     border: solid;
 }
 
 .container {
+    background-color: #87C38F;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    width: 30%;   
+    width: 400px;
+    height: 400px;
+}
+
+.header {
+    margin-bottom: 30px;
+    font-size: 48px;
 }
 
 .hover {
-    background-color: red;  
+    background-color: #226F54;
 }
